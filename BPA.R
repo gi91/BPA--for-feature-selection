@@ -1,10 +1,12 @@
 #########################################################
 #Install package gRapHD which it is important for the BPA
+# and package ggnet fro the grpah 
 #########################################################
 #install.packages("remotes")
 #install.packages("BiocManager")
 #BiocManager::install("graph")
 #remotes::install_version("gRapHD", version = "0.2.6")
+#devtools::install_github("briatte/ggnet")
 
 
 
@@ -25,7 +27,7 @@ library(NMF)
 library(np)
 library(fastmit)
 
-
+library(ggnet)
 
 
 #########################################################
@@ -312,4 +314,5 @@ summary(OLS)
 #pages={119601},
 #year={2023},
 #publisher={Elsevier}
+
 #}
